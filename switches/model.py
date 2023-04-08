@@ -47,9 +47,16 @@ def register_all():
     from .openai_gpt4 import OpenAIGPT4
     register(OpenAIGPT4)
 
+
     from .revchatgpt_gpt35 import RevChatGPT35
     register(RevChatGPT35)
 
     from .newbing import NewBing
     register(NewBing)
+
+    from .a2d_gpt35 import A2DGPT35
+    register(A2DGPT35)
+
+    from .a2d_gpt4 import A2DGPT4
+    register(A2DGPT4)
 
